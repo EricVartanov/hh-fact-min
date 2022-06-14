@@ -143,8 +143,14 @@
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
     }
-    .idc-pluse .idc-text {
+    .idc-pluse > .idc-text {
+        margin: 0 auto;
+        margin-top: 20px;
         width: 52%;
+        text-align: center;
+    }
+    .idc-pluse .idc-icon {
+        margin: 0 auto;
     }
     /* *************company************** */
     .idc-company .idc-container {
