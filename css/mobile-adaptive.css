@@ -92,7 +92,7 @@
     }
     /* ******info**** */
     .idc-info .idc-container {
-        padding-top: 15px;
+        padding-top: 30px;
         padding-bottom: 20px;
     }
 
@@ -101,7 +101,7 @@
         line-height: 20px;
     }
     .idc-info p:not(:first-child) {
-        margin-top: 35px;
+        margin-top: 22px;
     }
     .idc-info ul {
         margin-top: 15px;

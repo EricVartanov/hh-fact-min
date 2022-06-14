@@ -3,12 +3,14 @@ var DocWidth = document.documentElement.clientWidth;
 
 let cards = document.querySelectorAll(".idc-pluse");
 
-if (DocWidth > 1340) {
+if (DocWidth > 1340 && document.querySelector(".idc-pluse.hover")) {
     for (let card of cards) {
         card.addEventListener("mouseover", function () {
-            document
-                .querySelector(".idc-pluse.hover")
-                .classList.remove("hover");
+            if (document.querySelector(".idc-pluse.hover")) {
+                document
+                    .querySelector(".idc-pluse.hover")
+                    .classList.remove("hover");
+            }
         });
     }
 }
