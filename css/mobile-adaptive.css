@@ -143,7 +143,9 @@
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
     }
-
+    .idc-pluse .idc-text {
+        width: 52%;
+    }
     /* *************company************** */
     .idc-company .idc-container {
         padding-top: 0;
