@@ -1,0 +1,183 @@
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* **************about***************** */
+    .idc-about .idc-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .idc-about .idc-text {
+        margin-top: 10px;
+    }
+
+    /* **************gallery***************** */
+
+    .idc-swiper-1.swiper {
+        padding: 0 15px;
+    }
+    .idc-swiper-1 .swiper-slide {
+        border-radius: 20px;
+    }
+
+    .idc-swiper-button-prev {
+        left: 0;
+    }
+    .idc-swiper-button-next {
+        right: 0;
+    }
+
+    .idc-gallery .idc-text {
+        margin-top: 30px;
+    }
+
+    /* *************info************** */
+    .idc-info .idc-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 35px;
+    }
+    .idc-info ul li {
+        width: 85%;
+    }
+
+    /* *************pluses************** */
+    .idc-pluses .idc-container {
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    .idc-pluse {
+        width: 178px;
+    }
+}
+
+@media (max-width: 699px) {
+    /* **************about***************** */
+    .idc-about .idc-container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .idc-about .idc-logo {
+        width: 22vw;
+    }
+
+    /* **************gallery***************** */
+    .idc-gallery .idc-container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .idc-swiper-1.swiper {
+        padding: 0;
+    }
+    .idc-swiper-button-prev,
+    .idc-swiper-button-next {
+        display: none;
+    }
+    .idc-swiper-1 .idc-swiper-pagination {
+        margin-top: 0px;
+    }
+    .idc-gallery .idc-text {
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 20px;
+    }
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    .idc-info p > strong {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 35px;
+    }
+    .idc-info ul {
+        margin-top: 15px;
+    }
+
+    .idc-info ul li {
+        width: 100%;
+        margin-top: 0;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    /* *************pluses************** */
+    .idc-pluses .idc-container {
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+    .idc-pluses-block {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+    .idc-pluse {
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .idc-tooltip {
+        width: 100%;
+        padding: 22px 25px;
+    }
+
+    .idc-tt1::before,
+    .idc-tt2::before,
+    .idc-tt3::before {
+        right: unset;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    /* *************company************** */
+    .idc-company .idc-container {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .idc-h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .idc-company .idc-swiper-block {
+        margin-top: 20px;
+    }
+
+    .idc-card {
+        height: 189px;
+    }
+    .idc-card .idc-icon {
+        width: 52px;
+    }
+
+    .idc-swiper-2 .idc-swiper-pagination {
+        margin-top: 5px;
+    }
+    /* *************footer************** */
+    .idc-footer .idc-container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .idc-footer .idc-text {
+        margin: 0 auto;
+        margin-top: 15px;
+        font-size: 12px;
+        line-height: 16px;
+        width: 90%;
+    }
+}
